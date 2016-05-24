@@ -1,5 +1,5 @@
 FROM centos
-MAINTAINER daisuke 
+MAINTAINER Daisuke Shinmachi "d.shinmachi.aist@gmail.com"
 
 RUN yum install -y httpd
 RUN yum install -y git
