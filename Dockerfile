@@ -1,6 +1,6 @@
 FROM debian
 # changing to debian because of https://github.com/docker/hub-feedback/issues/461
-MAINTAINER daisuke 
+MAINTAINER Daisuke Shinmachi "d.shinmachi.aist@gmail.com"
 
 #RUN yum install --nogpgcheck -y httpd 
 #RUN yum install -y git
