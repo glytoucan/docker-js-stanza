@@ -6,7 +6,7 @@ MAINTAINER Daisuke Shinmachi "d.shinmachi.aist@gmail.com"
 #RUN yum install -y git
 #RUN yum install -y wget
 
-RUN echo "Acquire::http { Proxy \"http://test.glytoucan.org:3142\"; };" > /etc/apt/apt.conf.d/02Proxy
+#RUN echo "Acquire::http { Proxy \"http://test.glytoucan.org:3142\"; };" > /etc/apt/apt.conf.d/02Proxy
 RUN apt-get update && apt-get install -y git wget && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /stanza
